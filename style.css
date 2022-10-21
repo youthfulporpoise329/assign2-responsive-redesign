@@ -1,0 +1,206 @@
+/* @font-face {
+    font-family: Raleway;
+    src: url(https://fonts.google.com/download?family=Raleway);
+} */
+
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 5rem;
+    font-family: "Avenir Book"; 
+    /* change font to raleway */
+}
+
+#nav-bar-gallery {
+    background-color: rgb(96, 166, 78)
+    /* should define a margin here  */
+}
+
+.nav-bar-item {
+    color: rgb(255, 255, 255); 
+}
+
+#site-body-gallery {
+    margin-left: 7rem; 
+    margin-right: 7rem; 
+    margin-top: 8rem;
+}
+
+.lesson-button {
+    /* button created using the CSS cheat sheet found at https://htmlcheatsheet.com/css/ */
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+    line-height: 16px; 
+    padding: 11px; 
+    border-radius: 13px; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(11, 135, 225) 0%, rgb(11, 135, 225) 100%); 
+    border: 0px solid rgb(28, 110, 164); display: inline-block;
+    width: 15rem;
+    margin: 0.3rem; 
+}
+
+.small-text {
+    font-size: 10pt;
+}
+
+.lesson-button:hover {
+    background: rgb(8,99,166); 
+}
+.info-container {
+     align-items: center;
+     width: 100%;
+}
+.inbtwn {
+    display: flex;
+    justify-content: space-between;
+    width: 4rem;
+}
+/* .top-row {
+    font-size: 14pt;
+}
+.left {
+    font-size: 18pt;
+    align-items: baseline; 
+}
+.right {
+    align-items: right;
+    width: 10rem;
+}
+.t-body {
+    align-items: center;
+    width: 5rem;
+    border-width: 2px;
+    border-color: black;
+    width: 5rem;
+}  */
+table {
+    width: 100%;
+
+}
+.top-row {
+    font-size: 14pt;
+    font-weight: normal;
+}
+.l-type {
+    width: 55%;
+}
+.price {
+    width: 15%;
+}
+
+
+.stupid {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.stupider {
+    display: flex;
+    justify-content: flex-end;
+    width: 4rem;
+}
+
+
+.buck-navbar {
+    background-color: rgb(96, 166, 78);
+}
+.buck-brand {
+    color: white;
+    font-size: 24pt;
+}
+.buck-nav-list {
+    color: white;
+    width: 56%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13pt;
+}
+.buck-nav-item {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 5rem;
+    text-decoration: none; 
+    width: 14%; 
+    cursor: default;
+}
+
+.hover-prob {
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+}
+
+.active {
+    font-weight: bold; 
+}
+
+.buck-nav-item:hover {
+    font-weight: bold; 
+    color: white;
+    text-decoration: none; 
+    letter-spacing: 0;
+}
+
+
+
+
+
+
+.book-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+    
+.book-btn {
+    border: 3px solid rgb(8,99,166);
+    border-radius: 28px;
+    width: 80rem;
+    display: flex;
+    justify-content: space-around;
+    height: 7rem;
+    color: #5ec0dd;
+}
+
+.book-part {
+    border-right: 3px solid rgb(8,99,166);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+.book-words-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.book-word {
+    display: flex;
+    justify-content: left;
+    color: rgb(8,99,166);
+}
+.bw-top {
+    font-size: 14pt;
+    font-weight: 500;
+}
+.icon {
+    margin-right: 3rem;
+    font-size: 20pt;
+    margin-bottom: 1rem;
+    color: rgb(8,99,166);
+}        
+.icon:hover {
+    color: #5ec0dd;
+    cursor: pointer;
+}
